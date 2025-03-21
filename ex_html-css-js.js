@@ -60,6 +60,8 @@ document.getElementById("botellaDeManzana").onchange = function() {
     document.getElementById("total").textContent="Total: "+precioTotal;
 }
 
+//FALTA modificar las cantidades con document.getElementById("cantidad").value, multiplicando. Entrego ya el examen
+
 const preciosPescados = {
     calamares: 6,
     adobo: 7,

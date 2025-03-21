@@ -7,16 +7,35 @@
 </head>
 <body>
    <h1>¡¡Pide aquí tu rico pescaíto!!</h1>
-   <img src="pescado_frito.jpg" title="Bandeja pescado frito"> <!--CUIDAO-->
-    <form>
-        <input type="text" name="nombre" placeholder="Nombre">
-        <input type="text" name="apellidos" placeholder="Apellidos">
-        <input type="email" name="email" placeholder="Nombre">
-        <input type="text" name="direccion" placeholder="Dirección">
-        <input type="tel" name="telefono" placeholder="Telefono">
-        <input type="time" name="hora" placeholder="Hora">
+   <!--CAMBIAR LAS COSAS LUEGO-->
+   <img src="pescado_frito.jpg" title="Bandeja pescado frito"> 
+    <form id="formulario">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre">
+        <input type="text" name="apellidos" placeholder="Escribe tus apellidos" id="apellidos">
+        <input type="email" name="email" placeholder="Escribe tu email" id="email">
+        <input type="text" name="direccion" placeholder="Escribe tu dirección" id="direccion">
+        <input type="tel" name="telefono" placeholder="Escribe tu teléfono" id="telefono">
+        <input type="time" name="hora">
 
-        <input type="radio" name="tipo" value="calamares">
+        <input type="radio" name="tipo" value="calamares" id="calamares">
+        <input type="radio" name="tipo" value="adobo" id="adobo">
+        <input type="radio" name="tipo" value="boquerones" id="boquerones">
+
+        <input type="text" name="cantidad">
+
+        <input type="checkbox" name="acompaniamiento" value="patatasFritas" id="patatasFritas">
+        <input type="checkbox" name="acompaniamiento" value="ensaladilla" id="ensaladilla">
+        <input type="checkbox" name="acompaniamiento" value="botellaDeManzana" id="botellaDeManzana">
+
+        <input type="radio" name="metodoPago" value="efectivo" id="efectivo">
+        <input type="radio" name="metodoPago" value="tarjeta" id="tarjeta">
+        <input type="radio" name="metodoPago" value="paypal" id="paypal">
+
+        <input type="text" name="instruccionesAdicionales">
+
+        <button id="enviar">Enviar Pedido</button>
+
+        <footer>Antonio Manuel Rosendo Alonso</footer>
     </form>
     <script src="ex_html-css-js.js"></script>
 

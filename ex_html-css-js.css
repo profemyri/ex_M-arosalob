@@ -1,13 +1,49 @@
 body {
-   ...........
+   background-color: #faf3e0;
+   color: #2c3e50;
+   font-family: Arial, sans-serif;
+   text-align:center;
+   width: 800px;
 }
 
 h1 {
-   ...........
+   size: 32px;
+   color: #0077b6;
+   text-align:center;
+}
+
+h2 {
+   size: 24px;
+   color: #f4a261;
+}
+
+img{
+   max-width: 100%;
 }
 
 form {
-   ...........
+   background-color: #ffffff;
 }
 
-............
+input, select, textarea {
+   border-color: #eaeaea;
+   border-width: 1px; /*Creo que te refieres a esto, luego reviso*/
+   border-style: solid;
+}
+
+button{
+   background-color: #0077b6;
+   color: white;
+   text-align: center;
+}
+/*
+textarea{
+   placeholder-color: #f4a261;
+}*/
+
+* {
+   margin: 15px;
+   padding: 10px;
+   border-radius: 10px;
+}
+

@@ -6,33 +6,41 @@
     <link rel="stylesheet" href="ex_html-css-js.css">
 </head>
 <body>
+    <button id="modoOscuro">Modo Oscuro</button>
    <h1>¡¡Pide aquí tu rico pescaíto!!</h1>
-   <!--CAMBIAR LAS COSAS LUEGO-->
+   <!--CAMBIAR LAS COSAS LUEGO COMO LOS REQUIRED-->
    <img src="pescado_frito.jpg" title="Bandeja pescado frito"> 
     <form id="formulario">
-        <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre">
-        <input type="text" name="apellidos" placeholder="Escribe tus apellidos" id="apellidos">
-        <input type="email" name="email" placeholder="Escribe tu email" id="email">
-        <input type="text" name="direccion" placeholder="Escribe tu dirección" id="direccion">
-        <input type="tel" name="telefono" placeholder="Escribe tu teléfono" id="telefono">
-        <input type="time" name="hora">
+        <h2>Datos del cliente</h2>
+        Nombre: <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre"><br>
+        Apellidos: <input type="text" name="apellidos" placeholder="Escribe tus apellidos" id="apellidos"><br>
+        Email: <input type="text" name="email" placeholder="Escribe tu email" id="email"><br>
+        Dirección: <input type="text" name="direccion" placeholder="Escribe tu dirección" id="direccion"><br>
+        Teléfono: <input type="tel" name="telefono" placeholder="Escribe tu teléfono" id="telefono"><br>
+        Hora: <input type="time" name="hora" id="hora"><br>
 
-        <input type="radio" name="tipo" value="calamares" id="calamares">
-        <input type="radio" name="tipo" value="adobo" id="adobo">
-        <input type="radio" name="tipo" value="boquerones" id="boquerones">
+        <h2>Pedido de pescado</h2>
+        Calamares: <input type="radio" name="tipo" value="calamares" id="calamares">
+        Adobo: <input type="radio" name="tipo" value="adobo" id="adobo">
+        Boquerones: <input type="radio" name="tipo" value="boquerones" id="boquerones">
+        <br>
+        Cantidad: <input type="text" name="cantidad" id="cantidad" placeholder="Cantidad">
+        <br>
+        Patatas Fritas: <input type="checkbox" name="acompaniamiento" value="patatasFritas" id="patatasFritas">
+        Ensaladilla: <input type="checkbox" name="acompaniamiento" value="ensaladilla" id="ensaladilla">
+        Botella de manzana: <input type="checkbox" name="acompaniamiento" value="botellaDeManzana" id="botellaDeManzana">
 
-        <input type="text" name="cantidad">
+        <h2>Método de pago</h2>
+        Efectivo: <input type="radio" name="metodoPago" value="efectivo" id="efectivo">
+        Tarjeta: <input type="radio" name="metodoPago" value="tarjeta" id="tarjeta">
+        Paypal: <input type="radio" name="metodoPago" value="paypal" id="paypal">
 
-        <input type="checkbox" name="acompaniamiento" value="patatasFritas" id="patatasFritas">
-        <input type="checkbox" name="acompaniamiento" value="ensaladilla" id="ensaladilla">
-        <input type="checkbox" name="acompaniamiento" value="botellaDeManzana" id="botellaDeManzana">
+        <h2>Instrucciones adicionales</h2>
+        Instrucciones adicionales: <input type="text" name="instruccionesAdicionales" placeholder="Escribe aquí" id="instrucciones">
+        <p id="contador">Número de caracteres: </p>
+        <p id="total">Total: 0€</p>
 
-        <input type="radio" name="metodoPago" value="efectivo" id="efectivo">
-        <input type="radio" name="metodoPago" value="tarjeta" id="tarjeta">
-        <input type="radio" name="metodoPago" value="paypal" id="paypal">
-
-        <input type="text" name="instruccionesAdicionales">
-
+        <h2>Botón de envío</h2>
         <button id="enviar">Enviar Pedido</button>
 
         <footer>Antonio Manuel Rosendo Alonso</footer>

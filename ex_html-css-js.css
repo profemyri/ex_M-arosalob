@@ -27,7 +27,7 @@ form {
 
 input, select, textarea {
    border-color: #eaeaea;
-   border-width: 1px; /*Creo que te refieres a esto, luego reviso*/
+   border-width: 1px;
    border-style: solid;
 }
 
@@ -36,14 +36,24 @@ button{
    color: white;
    text-align: center;
 }
-/*
+
 textarea{
-   placeholder-color: #f4a261;
-}*/
+   color: #f4a261;
+}
 
 * {
    margin: 15px;
    padding: 10px;
    border-radius: 10px;
+}
+
+.modoOscuro {
+   background-color: black;
+   color: white;
+}
+
+button:hover {
+   background-color: white;
+   color: #0077b6;
 }
 
